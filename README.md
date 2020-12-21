@@ -1,1 +1,1 @@
-Paper List for NER
+Paper List for Discourse
