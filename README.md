@@ -2,6 +2,8 @@ Paper List for Discourse
 
 ## Discourse Relation Recognition
 
+-Interactively-Propagative Attention Learning for Implicit Discourse Relation Recognition
+
 - Linguistic Properties Matter for Implicit Discourse Relation Recognition: Combining Semantic Interaction, Topic Continuity and Attribution (AAAI 2018). [Paper]()
 
 - Deep Enhanced Representation for Implicit Discourse Relation Recognition (Coling 2018). [Paper](https://aclweb.org/anthology/papers/C/C18/C18-1048/), [Code](https://github.com/hxbai/Deep_Enhanced_Repr_for_IDRR)
