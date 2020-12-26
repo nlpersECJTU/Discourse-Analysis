@@ -2,7 +2,9 @@ Paper List for Discourse
 
 ## Discourse Relation Recognition
 
-- Interactively-Propagative Attention Learning for Implicit Discourse Relation Recognition (Coling 2020). [Paper](https://www.aclweb.org/anthology/2020.coling-main.282)
+- Using a Penalty-based Loss Re-estimation Method to Improve Implicit Discourse Relation Classification (). [Paper]()
+
+- Interactively-Propagative Attention Learning for Implicit Discourse Relation Recognition (Coling 2020). [Paper](chrome-extension://ibllepbpahcoppkjjllbabhnigcbffpi/https://www.aclweb.org/anthology/2020.coling-main.282.pdf)
 <br>简要说明：本文同时利用self-attention与interactive attention两种attention机制，以交互形式建立一种传递注意力信息学习的模型提升隐式篇章关系识别性能。<br>
 
 - Linguistic Properties Matter for Implicit Discourse Relation Recognition: Combining Semantic Interaction, Topic Continuity and Attribution (AAAI 2018). [Paper]()
