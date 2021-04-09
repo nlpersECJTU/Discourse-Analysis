@@ -2,6 +2,9 @@ Paper List for Discourse
 
 ## Discourse Relation Recognition
 
+- Tree Framework With BERT Word Embedding for the Recognition of Chinese Implicit Discourse Relations (IEEE Access 2020). [Paper](https://ieeexplore.ieee.org/document/9178269/)
+<br>简要说明：本文使用基于BERT预训练模型的树结构篇章关系框架在中文语料HIT-CDTB上提升中文隐式篇章关系识别的性能。<br>
+
 - Using a Penalty-based Loss Re-estimation Method to Improve Implicit Discourse Relation Classification (Coling 2020). [Paper](https://www.aclweb.org/anthology/2020.coling-main.132.pdf)
 <br>简要说明：由于attention机制学习重要特征表示时会同时关注不重要词的信息，因此在提升重要词的特征表示信息学习时，本文在attention机制中使用惩罚损失函数加强相关语义信息的学习，提升隐式篇章关系识别效果。 <br>
 
