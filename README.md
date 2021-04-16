@@ -2,7 +2,7 @@ Paper List for Discourse
 
 ## Discourse Relation Recognition
 - Acquiring Annotated Data with Cross-lingual Explicitation for Implicit Discourse Relation Classification (NAACL 2019). [Paper](http://aclweb.org/anthology/W19-2703)
-<br>简要说明：本文对英文训练数据先进行预处理，然后翻译成三种语言（French，German，Czech），以显式化源数据的隐式篇章关系，接着通过PDTB式篇章分析器在三种语言中选择要翻译回英文的样本数据，最后使用定义好的规则选择翻译回英文的数据并加入训练数据集，以缓解训练数据集的稀疏问题并提升隐式篇章关系模型的识别性能。 <br>
+<br>简要说明：本文对英文训练数据先进行预处理，然后翻译成三种语言（French，German，Czech），以显式化源数据的隐式篇章关系，接着通过PDTB式篇章分析器在三种语言中选择要翻译回英文的样本数据，最后使用定义好的规则选择样本数据并加入训练数据集，以缓解训练数据集的稀疏问题并提升隐式篇章关系模型的识别性能。 <br>
 - Tree Framework With BERT Word Embedding for the Recognition of Chinese Implicit Discourse Relations (IEEE Access 2020). [Paper](https://ieeexplore.ieee.org/document/9178269/)
 <br>简要说明：本文使用基于BERT预训练模型的树结构篇章关系框架在中文语料HIT-CDTB上提升中文隐式篇章关系识别的性能。<br>
 
