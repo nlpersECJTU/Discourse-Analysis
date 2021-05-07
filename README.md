@@ -1,18 +1,24 @@
 Paper List for Discourse
 
 ## Discourse Relation Recognition
+
+- Weakly-Supervised Modeling of Contextualized Event Embedding for Discourse Relations (EMNLP 2020). [Paper](https://www.aclweb.org/anthology/2020.findings-emnlp.446). [Code](https://github.com/doug919/narrative_graph_emnlp2020)
+<br>简介：自然语言理解任务需要更有表现力的表示信息，该信息能够捕捉到事件所出现的上下文信息和事件之间的多种关系信息。本文利用关系型图卷积网络(R-GCN)表示文本，图中的结点为事件，边为事件之间的关系。在结合BERT-Tiny预训练模型和图卷积网络模型下，在相关自然语言理解任务中取得不错的结果。<br>
+
 - A Regularization Approach for Incorporating Event Knowledge and Coreference Relations into Neural Discourse Parsing (EMNLP 2019). [Paper](https://www.aclweb.org/anthology/D19-1295).  [Base model code (2018 Dai and Huang)](https://github.com/ZeyuDai/paragraph-level_implicit_discourse_relation_classification)
-<br>简要说明：本文在神经网络模型中结合外部知识和共指关系缓解数据稀疏问题，并进一步提升隐式篇章关系识别任务的性能。由于外部知识和共指关系并不总能被应用于特定的文本中，于是作者提出一种正则化的方法，即在上下文语境中紧密结合外部知识和共指关系信息生成词向量语义表示，同时，在总的代价函数中增加一个正则化参数平衡上下文信息与外部知识及共指关系之间的注意力分布。实验结果证明本文方法是有效的。<br>
+<br>简介：本文在神经网络模型中结合外部知识和共指关系缓解数据稀疏问题，并进一步提升隐式篇章关系识别任务的性能。由于外部知识和共指关系并不总能被应用于特定的文本中，于是作者提出一种正则化的方法，即在上下文语境中紧密结合外部知识和共指关系信息生成词向量语义表示，同时，在总的代价函数中增加一个正则化参数平衡上下文信息与外部知识及共指关系之间的注意力分布。实验结果证明本文方法是有效的。<br>
+
 - Acquiring Annotated Data with Cross-lingual Explicitation for Implicit Discourse Relation Classification (NAACL 2019). [Paper](http://aclweb.org/anthology/W19-2703)
-<br>简要说明：本文对英文训练数据先进行预处理，然后翻译成三种语言（French，German，Czech），以显式化源数据的隐式篇章关系，接着通过PDTB式篇章分析器在三种语言中选择要翻译回英文的样本数据，最后使用定义好的规则选择样本数据并加入训练数据集，以缓解训练数据集的稀疏问题并提升隐式篇章关系模型的识别性能。 <br>
+<br>简介：本文对英文训练数据先进行预处理，然后翻译成三种语言（French，German，Czech），以显式化源数据的隐式篇章关系，接着通过PDTB式篇章分析器在三种语言中选择要翻译回英文的样本数据，最后使用定义好的规则选择样本数据并加入训练数据集，以缓解训练数据集的稀疏问题并提升隐式篇章关系模型的识别性能。 <br>
+
 - Tree Framework With BERT Word Embedding for the Recognition of Chinese Implicit Discourse Relations (IEEE Access 2020). [Paper](https://ieeexplore.ieee.org/document/9178269/)
-<br>简要说明：本文使用基于BERT预训练模型的树结构篇章关系框架在中文语料HIT-CDTB上提升中文隐式篇章关系识别的性能。<br>
+<br>简介：本文使用基于BERT预训练模型的树结构篇章关系框架在中文语料HIT-CDTB上提升中文隐式篇章关系识别的性能。<br>
 
 - Using a Penalty-based Loss Re-estimation Method to Improve Implicit Discourse Relation Classification (Coling 2020). [Paper](https://www.aclweb.org/anthology/2020.coling-main.132.pdf)
-<br>简要说明：由于attention机制学习重要特征表示时会同时关注不重要词的信息，因此在提升重要词的特征表示信息学习时，本文在attention机制中使用惩罚损失函数加强相关语义信息的学习，提升隐式篇章关系识别效果。 <br>
+<br>简介：由于attention机制学习重要特征表示时会同时关注不重要词的信息，因此在提升重要词的特征表示信息学习时，本文在attention机制中使用惩罚损失函数加强相关语义信息的学习，提升隐式篇章关系识别效果。 <br>
 
 - Interactively-Propagative Attention Learning for Implicit Discourse Relation Recognition (Coling 2020). [Paper](https://www.aclweb.org/anthology/2020.coling-main.282.pdf)
-<br>简要说明：本文发现self-attention与interactive attention两种attention机制之间可以共享重要特征信息，于是在两个attention机制之间以交互形式建立一种传递注意力信息学习的模型，提升隐式篇章关系识别性能。<br>
+<br>简介：本文发现self-attention与interactive attention两种attention机制之间可以共享重要特征信息，于是在两个attention机制之间以交互形式建立一种传递注意力信息学习的模型，提升隐式篇章关系识别性能。<br>
 
 - Linguistic Properties Matter for Implicit Discourse Relation Recognition: Combining Semantic Interaction, Topic Continuity and Attribution (AAAI 2018). [Paper]()
 
