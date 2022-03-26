@@ -1,4 +1,4 @@
-Paper List for Discourse
+Discourse Analysis, Discourse Parsing, Discourse Relation Recogntion
 
 ## Discourse Relation Recognition
 
