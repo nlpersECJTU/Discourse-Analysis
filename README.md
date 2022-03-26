@@ -7,7 +7,6 @@ Discourse Analysis, Discourse Parsing, Discourse Relation Recogntion
 ## Discourse Relation Recognition
 - SWIM: A Simple Word Interaction Model for Implicit Discourse Relation Recognition (IJCAI 2017)
 - Implicit Discourse Relation Classification via Multi-Task Neural Networks (AAAI 2016)
-- Shallow Convolutional Neural Network for Implicit Discourse Relation Recognition (EMNLP 2015)
 
 ## Discourse Analysis and Application
 -
