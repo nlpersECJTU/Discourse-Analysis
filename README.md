@@ -14,3 +14,4 @@ Discourse Analysis, Discourse Parsing, Discourse Relation Recogntion
 
 ## Data
 - PDTB (Penn Discourse Treebank Version 2.0) [https://catalog.ldc.upenn.edu/LDC2008T05]
+- RST-DT (RST Discourse Treebank) [https://catalog.ldc.upenn.edu/LDC2002T07]
