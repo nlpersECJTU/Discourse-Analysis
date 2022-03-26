@@ -10,7 +10,7 @@ Discourse Analysis, Discourse Parsing, Discourse Relation Recogntion
 - Shallow Convolutional Neural Network for Implicit Discourse Relation Recognition (EMNLP 2015)
 
 ## Discourse Analysis and Application
-
+-
 
 ## Data
 - PDTB (Penn Discourse Treebank Version 2.0) [https://catalog.ldc.upenn.edu/LDC2008T05]
